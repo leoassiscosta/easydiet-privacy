@@ -1,24 +1,137 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>EasyDiet — Privacy</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Diet - Política de Privacidade</title>
     <style>
-      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;color:#111;margin:0;padding:24px;background:#f7f7f8}
-      main{max-width:760px;margin:32px auto;background:#fff;padding:28px;border-radius:8px;box-shadow:0 6px 18px rgba(20,20,40,0.06)}
-      h1{margin:0 0 12px;font-size:1.6rem}
-      p{margin:0 0 12px}
-      a{color:#0366d6}
-      footer{margin-top:18px;font-size:0.9rem;color:#555}
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #1a1a1a;
+            border-radius: 20px;
+            padding: 48px 40px;
+            border: 1px solid #2a2a2a;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 36px;
+            border-bottom: 1px solid #2a2a2a;
+            padding-bottom: 20px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4ade80;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #c0c0c0;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #1e3a2f;
+            border-left: 3px solid #4ade80;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .highlight p { margin-bottom: 0; color: #a0d8b0; }
+        a { color: #4ade80; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid #2a2a2a;
+            font-size: 13px;
+            color: #666;
+            text-align: center;
+        }
+        .logo { font-size: 36px; margin-bottom: 12px; }
     </style>
-  </head>
-  <body>
-    <main>
-      <h1>EasyDiet — Privacidade</h1>
-      <p>Este repositório contém informações relacionadas à privacidade do projeto EasyDiet.</p>
-      <p>Leia o <a href="README.md">README</a> para detalhes do repositório.</p>
-      <footer>Arquivo criado automaticamente.</footer>
-    </main>
-  </body>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🥗</div>
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle">Easy Diet — Última atualização: 28 de fevereiro de 2026</p>
+
+        <p>O <strong>Easy Diet</strong> foi desenvolvido por Leandro Costa como um aplicativo de planejamento alimentar personalizado. Esta página informa aos usuários sobre nossas práticas em relação à coleta, uso e proteção de dados pessoais.</p>
+
+        <div class="highlight">
+            <p>🔒 <strong>O Easy Diet não coleta, armazena nem transmite seus dados pessoais para servidores externos.</strong> Todos os seus dados permanecem exclusivamente no seu dispositivo (iPhone/iPad).</p>
+        </div>
+
+        <h2>1. Dados Armazenados Localmente</h2>
+        <p>Para funcionar corretamente, o aplicativo armazena as seguintes informações <strong>apenas no seu dispositivo</strong>:</p>
+        <ul>
+            <li>Nome de exibição</li>
+            <li>Peso, altura e idade</li>
+            <li>Objetivo alimentar (emagrecimento, hipertrofia ou manutenção)</li>
+            <li>Localização (cidade e estado) — utilizada uma única vez para personalizar o plano alimentar com alimentos regionais</li>
+            <li>Plano alimentar gerado</li>
+            <li>Histórico de evolução de peso</li>
+        </ul>
+        <p>Essas informações <strong>não são enviadas para nenhum servidor</strong> e são apagadas quando o aplicativo é desinstalado.</p>
+
+        <h2>2. Serviços de Terceiros</h2>
+        <p>O Easy Diet utiliza os seguintes serviços de terceiros que podem coletar informações anônimas de uso:</p>
+        <ul>
+            <li><strong>Firebase Analytics (Google)</strong> — Coleta dados anônimos e agregados sobre o uso do aplicativo (como número de sessões e telas visitadas) para melhorias de qualidade. Nenhum dado pessoal é identificado. <a href="https://firebase.google.com/support/privacy" target="_blank">Política do Firebase</a></li>
+            <li><strong>Firebase Crashlytics (Google)</strong> — Coleta automaticamente relatórios de erros técnicos (crashes) para melhorar a estabilidade do aplicativo. <a href="https://firebase.google.com/support/privacy" target="_blank">Política do Firebase</a></li>
+            <li><strong>RevenueCat</strong> — Gerencia assinaturas e compras dentro do aplicativo. Os dados de transação são processados diretamente pela Apple e pelo RevenueCat, sem que o desenvolvedor tenha acesso a dados financeiros pessoais. <a href="https://www.revenuecat.com/privacy" target="_blank">Política do RevenueCat</a></li>
+            <li><strong>OpenAI API</strong> — Utilizada para gerar planos alimentares personalizados. Os dados enviados (perfil básico sem identificação pessoal) são processados conforme a <a href="https://openai.com/policies/privacy-policy" target="_blank">Política de Privacidade da OpenAI</a>.</li>
+        </ul>
+
+        <h2>3. Localização</h2>
+        <p>O aplicativo solicita acesso à sua localização <strong>uma única vez</strong> durante a configuração inicial para identificar sua cidade e estado. Essa informação é usada exclusivamente para sugerir alimentos regionais no plano alimentar. A localização é armazenada apenas localmente e <strong>não é rastreada continuamente</strong>.</p>
+
+        <h2>4. Dados de Crianças</h2>
+        <p>O Easy Diet não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados de menores.</p>
+
+        <h2>5. Segurança</h2>
+        <p>Como todos os dados são armazenados localmente no seu dispositivo, a segurança dos seus dados está protegida pelas medidas de segurança nativas do iOS (criptografia de disco, Face ID/Touch ID, código de acesso).</p>
+
+        <h2>6. Seus Direitos</h2>
+        <p>Você pode a qualquer momento:</p>
+        <ul>
+            <li><strong>Acessar</strong> seus dados diretamente no aplicativo</li>
+            <li><strong>Excluir</strong> todos os seus dados através do botão "Resetar Todos os Dados" nas Configurações</li>
+            <li><strong>Revogar</strong> a permissão de localização nas Configurações do iOS</li>
+        </ul>
+
+        <h2>7. Alterações nesta Política</h2>
+        <p>Podemos atualizar esta Política de Privacidade periodicamente. Recomendamos verificar esta página regularmente. As alterações entram em vigor imediatamente após a publicação.</p>
+
+        <h2>8. Contato</h2>
+        <p>Se tiver dúvidas sobre esta Política de Privacidade, entre em contato:</p>
+        <p>📧 <a href="mailto:leoassiscosta@gmail.com">leoassiscosta@gmail.com</a></p>
+
+        <div class="footer">
+            <p>© 2026 Easy Diet por Leandro Costa. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</body>
 </html>
